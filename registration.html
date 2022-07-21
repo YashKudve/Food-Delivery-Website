@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <section>
+        <div class="imgbx">
+            <img src="https://thumbs.dreamstime.com/b/indian-food-curry-butter-chicken-palak-paneer-chiken-tikka-biryani-vegetable-curry-papad-dal-palak-sabji-jira-alu-rice-138549925.jpg"
+                alt="login"> 
+        </div>
+        <div class="contentbx">
+
+        
+
+        <div class="formbx">
+            <h2>REGISTER</h2>
+            <form action="register1.php" method="POST" onsubmit="confirm('Do you want to submit this form?')">
+                <div class="inputbx">
+                    <span>User Name:</span>
+                    <input type="text" name="userName" placeholder="Enter Username" required>
+                </div>
+
+                <div class="inputbx">
+                    <span>Email-Id</span>
+                    <input type="email" name="email" placeholder="Enter your Email-Id" required>
+                </div>
+
+                <div class="inputbx">
+                    <span>Password:</span>
+                    <input type="password" name="password" placeholder="Create Password" required>
+                </div>
+
+                <div class="inputbx">
+                    <span>Confirm Password</span>
+                    <input type="password" name="cpassword" placeholder="Confirm password"  required>
+                </div>
+
+                <div class="remember">
+                    <label><input type="checkbox" name=" "> I agree to the<a href="#">Terms and Condition*</a> </label>
+                </div>
+
+                <div class="inputbx" id="submitbtn">
+                    <!-- <span>Password</span>  -->
+                    <input type="submit" value="Submit" name="Submit">
+                </div>
+
+                <div class="inputbx">
+                    <p>Already registered?<a href="login.html"> Login now</a></p>
+                </div>
+
+                
+
+
+            </form>
+    </section>
+    
+</body>
+</html>

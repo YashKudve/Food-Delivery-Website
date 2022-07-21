@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="demo1.css">
+    <link rel="stylesheet" href="">
+    <!-- Cloudflare Awesome Fonts -->
+    <script src="https://kit.fontawesome.com/6d68b6fc65.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Main Dashboard</title>
+</head>
+<body>
+    <!-- header -->
+    <input type="checkbox" id="cart">
+    <label for="cart" class="label-cart"><span class="fas fa-shopping-cart"></span>
+        </label>
+
+        <h3 class="logo">Food Delivery Section</h3>
+
+        <!-- sidebar -->
+        <div class="sidebar">
+          <div class="sidebar-menu">
+            <span class="fas fa-search"></span>
+            <a href="#">Search</a>
+          </div>
+          <div class="sidebar-menu">
+            <span class="fas fa-home"></span>
+            <a href="#">Home</a>
+          </div>
+          <div class="sidebar-menu">
+            <span class="fas fa-heart"></span>
+            <a href="#">Favourites</a>
+          </div>
+          <div class="sidebar-menu">
+            <span class="fas fa-user"></span>
+            <a href="#">Profile</a>
+          </div>
+          <!-- <div class="sidebar-menu">
+            <span class="fas fa-slider-h"></span>
+            <a href="#">Setting</a>
+          </div> -->
+        </div>
+
+        <!-- main board -->
+        <div class="dashboard">
+          <div class="dashboard-banner">
+            <img src="https://cdn.pixabay.com/photo/2021/02/28/09/38/food-6056720__340.jpg" alt="">
+          </div>
+        </div>
+
+        <h3 class="dashboard-title">Our Recommendation</h3>
+        <div class="dashboard-menu">
+          <a href="#">Favourites</a>
+          <a href="#">Best Sellers</a>
+          <a href="#">Top Rated</a>
+          <a href="#">All</a>
+          
+        </div>
+
+        <div class="dashboard-content">
+          <div class="dashboard-card">
+            <img src="https://cdn.pixabay.com/photo/2020/04/29/03/30/pizza-5107039__340.jpg" alt="pizza" class="card-image">
+            <div class="card-detail">
+              <h4>Amazing Pizza <span>&#x20B9 300</span></h4>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p class="card-time"><span class="fas fa-clock"></span>15-20 min</p>
+            </div>
+          </div>
+
+          <div class="dashboard-card">
+            <img src="https://cdn.pixabay.com/photo/2017/08/18/18/14/salad-2655893__340.jpg" alt="salad" class="card-image">
+            <div class="card-detail">
+              <h4>Fresh Salad <span>&#x20B9 300</span></h4>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p class="card-time"><span class="fas fa-clock"></span>15-20 min</p>
+            </div>
+          </div>
+
+          <div class="dashboard-card">
+            <img src="https://cdn.pixabay.com/photo/2016/03/27/19/23/tart-1283822__340.jpg" alt="salad" class="card-image">
+            <div class="card-detail">
+              <h4>Desert <span>&#x20B9300</span></h4>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p class="card-time"><span class="fas fa-clock"></span>15-20 min</p>
+            </div>
+          </div>
+          
+        <!-- </div> -->
+        </div>
+
+        <!-- order dashboard -->
+        <div class="dashboard-order">
+          <h3>Order Menu</h3>
+          <div class="order-address">
+            <p>Address Delivery</p>
+            <h4>ABC, Mumbai</h4>
+          </div>
+          <div class="order-time"><span class="fas fa-clock"></span><span class="fas fa-map-marker-alt">2km</span></div>
+
+          <div class="order-wrapper">
+            <div class="order-card">
+              <img src="https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_960_720.jpg" alt="" class="order-image">
+              <div class="order-detail">
+                <p>Lorem ipsum dolor sit.</p>
+                <i class="fas fa-times"></i><input type="text" value="1">
+              </div>
+              <h4 class="order-price">35</h4>
+            </div>
+
+            <div class="order-card">
+              <img src="https://cdn.pixabay.com/photo/2013/04/04/12/34/mountains-100367__180.jpg" alt="" class="order-image">
+              <div class="order-detail">
+                <p>Lorem ipsum dolor sit.</p>
+                <i class="fas fa-times"></i><input type="text" value="2">
+              </div>
+              <h4 class="order-price">45</h4>
+            </div>
+          </div>
+
+          <hr class="divider">
+          <div class="order-total">
+            <p>Subtotal- <span>80</span></p>
+            <p>Tax(GST-12%)- <span>9.6</span></p>
+            <p>Delivery Charges-  <span>10</span></p>
+
+            <div class="order-promo">
+              <input type="text" class="input-promo" placeholder="Apply Voucher">
+              <button class="button-promo">Find Promo</button>
+            </div>
+
+            <p>
+              
+            </p>
+            <hr class="divider">
+            <p>Total <span>96.6</span></p>
+          </div>
+
+          <button class="checkout">
+            Checkout
+          </button>
+
+
+        </div>
+    
+</body>
+</html>
