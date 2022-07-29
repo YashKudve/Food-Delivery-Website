@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Customer Details</title>
+    <link rel="stylesheet" href="Cust_Detail.css">
+  </head>
+  <body>
+    <div class="center">
+      <h1>Customer's Detail</h1>
+      <form method="post" action="cust_detail.php" onsubmit="confirm('Kindly ensure that the details entered are correct.')">
+        <div class="txt_field">
+          <input type="text" name="Name" required>
+          <span></span>
+          <label>Full Name:</label>
+        </div>
+        <div class="txt_field">
+          <input type="text" name="Address" required>
+          <span></span>
+          <label>Complete Address:</label>
+        </div>
+        <div class="txt_field">
+          <input type="number" name="Pincode" required>
+          <span></span>
+          <label>Pincode:</label>
+        </div>
+        <div class="txt_field">
+          <input type="number" name="Contact" required>
+          <span></span>
+          <label>Contact Number:</label>
+        </div>
+        <div class="txt_field">
+          <input type="email" name="Email" required>
+          <span></span>
+          <label>E-mail Id</label>
+        </div>
+        <!-- <div class="txt_field">
+          <input type="password" required>
+          <span></span>
+          <label>Password</label>
+        </div>
+        <div class="pass">Forgot Password?</div> -->
+        <input type="submit" value="Submit Details">
+        <!-- <div class="signup_link">
+          Not a member? <a href="#">Signup</a>
+        </div> -->
+      </form>
+    </div>
+
+  </body>
+</html>
